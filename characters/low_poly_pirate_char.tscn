@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5fdq2wbja624"]
+
+[ext_resource type="PackedScene" uid="uid://hjo7ssi787dn" path="res://assets/low-poly-pirate-character/source/LowPolyPirateChar/LowPolyPirateChar.glb" id="1_n5xp0"]
+
+[node name="LowPolyPirateChar" instance=ExtResource("1_n5xp0")]

@@ -1,6 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://btbeyk70wtu05"]
-
-[ext_resource type="PackedScene" uid="uid://hjo7ssi787dn" path="res://assets/low-poly-pirate-character/source/LowPolyPirateChar/LowPolyPirateChar.glb" id="1_fkkn3"]
+[gd_scene load_steps=6 format=3 uid="uid://btbeyk70wtu05"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_f13uq"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -36,6 +34,3 @@ mesh = SubResource("PlaneMesh_ul3s0")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_m3fbi")
-
-[node name="LowPolyPirateChar" parent="." instance=ExtResource("1_fkkn3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.325806, 0.0532942, -0.0350509)
